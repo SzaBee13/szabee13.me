@@ -130,8 +130,10 @@ function getLightModeSVG() {
 // SVG for Dark Mode Icon
 function getDarkModeSVG() {
     return `
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.293 14.293A8 8 0 119.707 6.707a8.001 8.001 0 007.586 7.586z" />
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6 flex items-center justify-center">
+            <g transform="translate(14.5, 14.5)">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.293-1.707A8 8 0 11-2.707-9.293a8.001 8.001 0 007.586 7.586z" />
+            </g>
         </svg>
     `;
 }
