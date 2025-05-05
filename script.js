@@ -8,6 +8,9 @@ const homeSection = document.getElementById('home');
 const projectsSection = document.getElementById('projects');
 const projectCards = document.querySelectorAll('#projects .bg-white'); // Select all project cards
 const projectParagraphs = document.querySelectorAll('#projects p'); // Select all <p> elements in project cards
+const classProjectsSection = document.getElementById('class');
+const classProjectCards = document.querySelectorAll('#class .bg-white'); // Select all class project cards
+const classProjectParagraphs = document.querySelectorAll('#class p'); // Select all <p> elements in class project cards
 const menuToggle = document.getElementById('menu-toggle');
 const menu = document.getElementById('menu'); // Mobile navbar
 
@@ -45,6 +48,11 @@ function applyTheme(isDarkMode) {
     projectsSection.classList.toggle('bg-gray-100', !isDarkMode);
     projectsSection.classList.toggle('text-gray-800', !isDarkMode);
 
+    classProjectsSection.classList.toggle('bg-gray-800', isDarkMode);
+    classProjectsSection.classList.toggle('text-white', isDarkMode);
+    classProjectsSection.classList.toggle('bg-gray-100', !isDarkMode);
+    classProjectsSection.classList.toggle('text-gray-800', !isDarkMode);
+
     // Update hamburger menu background
     menuToggle.classList.toggle('bg-gray-800', isDarkMode);
     menuToggle.classList.toggle('hover:bg-gray-700', isDarkMode);
@@ -73,6 +81,20 @@ function applyTheme(isDarkMode) {
 
     // Update project paragraphs
     projectParagraphs.forEach((paragraph) => {
+        paragraph.classList.toggle('text-gray-300', isDarkMode); // Light text for dark mode
+        paragraph.classList.toggle('text-gray-700', !isDarkMode); // Dark text for light mode
+    });
+
+    // Update class project cards
+    classProjectCards.forEach((card) => {
+        card.classList.toggle('bg-gray-800', isDarkMode);
+        card.classList.toggle('text-white', isDarkMode);
+        card.classList.toggle('bg-white', !isDarkMode);
+        card.classList.toggle('text-gray-700', !isDarkMode);
+    });
+
+    // Update class project paragraphs
+    classProjectParagraphs.forEach((paragraph) => {
         paragraph.classList.toggle('text-gray-300', isDarkMode); // Light text for dark mode
         paragraph.classList.toggle('text-gray-700', !isDarkMode); // Dark text for light mode
     });
