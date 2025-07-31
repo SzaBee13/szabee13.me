@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,6 +19,7 @@
     <meta name="author" content="SzaBee13">
     <meta name="keywords" content="SzaBee13, WizardGuruYT, SzaBee13.me, personal website, portfolio, games, projects">
 </head>
+
 <body class="bg-gray-100 text-gray-800">
     <!-- Navbar -->
     <nav id="navbar" class="flex justify-between items-center p-4 bg-gray-800 text-white fixed w-full top-0 z-10">
@@ -25,36 +27,43 @@
         <div class="flex items-center">
             <img src="./szabee13.jpg" alt="Logo" class="h-10 w-10 rounded-full">
         </div>
-    
+
         <!-- Center: Page Selector -->
-        <ul id="menu" class="hidden md:flex flex-col md:flex-row md:space-x-6 absolute md:static top-16 left-0 w-full md:w-auto bg-gray-800 md:bg-transparent p-4 md:p-0">
+        <ul id="menu"
+            class="hidden md:flex flex-col md:flex-row md:space-x-6 absolute md:static top-16 left-0 w-full md:w-auto bg-gray-800 md:bg-transparent p-4 md:p-0">
             <li><a href="#home" class="block hover:bg-gray-700 hover:text-white px-3 py-2 rounded">Home</a></li>
             <li><a href="#about" class="block hover:bg-gray-700 hover:text-white px-3 py-2 rounded">About</a></li>
             <li><a href="#projects" class="block hover:bg-gray-700 hover:text-white px-3 py-2 rounded">Projects</a></li>
-            <li><a href="#class" class="block hover:bg-gray-700 hover:text-white px-3 py-2 rounded">Class Projects</a></li>
+            <li><a href="#class" class="block hover:bg-gray-700 hover:text-white px-3 py-2 rounded">Class Projects</a>
+            </li>
             <li><a href="#socials" class="block hover:bg-gray-700 hover:text-white px-3 py-2 rounded">Socials</a></li>
         </ul>
-    
+
         <!-- Right: Theme Selector and Hamburger Menu -->
         <div class="flex items-center space-x-4">
             <!-- Theme Selector (Visible on Both Desktop and Mobile) -->
-            <button id="theme-toggle" class="flex items-center bg-gray-700 px-3 py-2 rounded hover:bg-gray-600  bg-gray-100 hover:bg-gray-300">
+            <button id="theme-toggle"
+                class="flex items-center bg-gray-700 px-3 py-2 rounded hover:bg-gray-600  bg-gray-100 hover:bg-gray-300">
                 <span id="theme-icon" class="h-6 w-50">
                     <!-- Light Mode SVG -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6 flex">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.364-6.364l-1.414 1.414M6.05 17.95l-1.414-1.414m12.728 0l1.414 1.414M6.05 6.05L4.636 4.636M12 7a5 5 0 100 10 5 5 0 000-10z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        class="h-6 w-6 flex">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.364-6.364l-1.414 1.414M6.05 17.95l-1.414-1.414m12.728 0l1.414 1.414M6.05 6.05L4.636 4.636M12 7a5 5 0 100 10 5 5 0 000-10z" />
                     </svg>
                 </span>
             </button>
-    
+
             <!-- Hamburger Menu Button (Mobile Only) -->
-            <button id="menu-toggle" class="md:hidden flex items-center bg-gray-700 px-3 py-2 rounded hover:bg-gray-600  bg-gray-100 hover:bg-gray-300">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <button id="menu-toggle"
+                class="md:hidden flex items-center bg-gray-700 px-3 py-2 rounded hover:bg-gray-600  bg-gray-100 hover:bg-gray-300">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
                 </svg>
             </button>
         </div>
-    
+
         <!-- Mobile Menu -->
         <ul id="menu" class="hidden md:hidden flex-col space-y-2 absolute top-16 left-0 w-full bg-gray-800 p-4">
             <li><a href="#home" class="block hover:bg-gray-700 px-3 py-2 rounded">Home</a></li>
@@ -74,10 +83,13 @@
     <div id="content" class="p-4 md:p-8">
         <div id="about">
             <h2 class="text-2xl md:text-3xl font-bold mb-4 text-center md:text-left">About Me</h2>
-            <p class="mb-4 text-sm md:text-base">Hello! I'm SzaBee13, a passionate developer and gamer. I love creating projects that challenge me and allow me to learn new things.</p>
+            <p class="mb-4 text-sm md:text-base">Hello! I'm SzaBee13, a passionate developer and gamer. I love creating
+                projects that challenge me and allow me to learn new things.</p>
             <p class="mb-4 text-sm md:text-base">Feel free to explore my work and connect with me on social media!</p>
             <p class="mb-4 text-sm md:text-base">I go 2 times a week to coding classes from age 8 years old.</p>
-            <p class="text-sm md:text-base">Teachers: <a href="https://xeretis.me" target="_blank" class="text-lg md:text-xl font-bold mb-2 text-blue-700 hover:text-blue-500 transition duration-300 ease-in-out">Xeretis</a>, p3am</p>
+            <p class="text-sm md:text-base">Teachers: <a href="https://xeretis.me" target="_blank"
+                    class="text-lg md:text-xl font-bold mb-2 text-blue-700 hover:text-blue-500 transition duration-300 ease-in-out">Xeretis</a>,
+                p3am</p>
         </div>
 
         <!-- Projects Section -->
@@ -86,19 +98,28 @@
             <p>NOTE: There are my projects, you find more of my project at GitHub that are programmed at classes.</p>
             <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                 <!-- Project Card -->
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div
+                    class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
                     <div class="p-4 md:p-6">
                         <h3 class="text-lg md:text-xl font-bold mb-2">Szabfun</h3>
-                        <p class="text-sm md:text-base text-gray-700 mb-4">My first project that I actually cared about, even if no one was interested. It is a fun game where you can play with your friends and have fun.</p>
+                        <p class="text-sm md:text-base text-gray-700 mb-4">My first project that I actually cared about,
+                            even if no one was interested. It is a fun game where you can play with your friends and
+                            have fun.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
-                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Backend</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Fun</span>
+                            <span
+                                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
+                            <span
+                                class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Backend</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Fun</span>
                         </div>
                         <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
                             <!-- Visit Page Button -->
-                            <a href="https://szabfun.pages.dev" target="_blank" class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link">
+                            <a href="https://szabfun.pages.dev" target="_blank"
+                                class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-external-link">
                                     <path d="M15 3h6v6"></path>
                                     <path d="M10 14 21 3"></path>
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -106,16 +127,26 @@
                                 <span class="ml-2">Visit Page</span>
                             </a>
                             <!-- GitHub Button -->
-                            <a href="https://github.com/SzaBee13/Szabfun" target="_blank" class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
-                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <a href="https://github.com/SzaBee13/Szabfun" target="_blank"
+                                class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-github">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                    </path>
                                     <path d="M9 18c-4.51 2-5-2-7-2"></path>
                                 </svg>
                                 <span class="ml-2">GitHub</span>
                             </a>
-                            <a href="https://github.com/SzaBee13/Szabfun-backend" target="_blank" class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
-                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <a href="https://github.com/SzaBee13/Szabfun-backend" target="_blank"
+                                class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-github">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                    </path>
                                     <path d="M9 18c-4.51 2-5-2-7-2"></path>
                                 </svg>
                                 <span class="ml-2">GitHub Backend</span>
@@ -123,21 +154,32 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div
+                    class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
                     <div class="p-4 md:p-6">
                         <h3 class="text-lg md:text-xl font-bold mb-2">Alma Language</h3>
-                        <p class="text-sm md:text-base text-gray-700 mb-4">I just hade a idea to create a custom programming language that based on js.</p>
+                        <p class="text-sm md:text-base text-gray-700 mb-4">I just hade a idea to create a custom
+                            programming language that based on js.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
-                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Programming Language</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Windows</span>
-                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Linux</span>
-                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">MacOS</span>
+                            <span
+                                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
+                            <span
+                                class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Programming
+                                Language</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Windows</span>
+                            <span
+                                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Linux</span>
+                            <span
+                                class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">MacOS</span>
                         </div>
                         <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
                             <!-- Visit Page Button -->
-                            <a href="https://almalang.pages.dev" target="_blank" class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link">
+                            <a href="https://almalang.pages.dev" target="_blank"
+                                class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-external-link">
                                     <path d="M15 3h6v6"></path>
                                     <path d="M10 14 21 3"></path>
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -145,9 +187,14 @@
                                 <span class="ml-2">Visit Page</span>
                             </a>
                             <!-- GitHub Button -->
-                            <a href="https://github.com/SzaBee13/alma-language" target="_blank" class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
-                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <a href="https://github.com/SzaBee13/alma-language" target="_blank"
+                                class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-github">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                    </path>
                                     <path d="M9 18c-4.51 2-5-2-7-2"></path>
                                 </svg>
                                 <span class="ml-2">GitHub</span>
@@ -155,19 +202,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div
+                    class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
                     <div class="p-4 md:p-6">
                         <h3 class="text-lg md:text-xl font-bold mb-2">Valkon Client</h3>
-                        <p class="text-sm md:text-base text-gray-700 mb-4">Me and my friend wanted to create a Fortnite client. So we made it. This is my first public project.</p>
+                        <p class="text-sm md:text-base text-gray-700 mb-4">Me and my friend wanted to create a Fortnite
+                            client. So we made it. This is my first public project.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Python</span>
-                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Client</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Fortnite</span>
+                            <span
+                                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Python</span>
+                            <span
+                                class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Client</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Fortnite</span>
                         </div>
                         <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
                             <!-- Visit Page Button -->
-                            <a href="https://valkonclient.pages.dev" target="_blank" class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link">
+                            <a href="https://valkonclient.pages.dev" target="_blank"
+                                class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-external-link">
                                     <path d="M15 3h6v6"></path>
                                     <path d="M10 14 21 3"></path>
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -175,9 +230,14 @@
                                 <span class="ml-2">Visit Page</span>
                             </a>
                             <!-- GitHub Button -->
-                            <a href="https://github.com/SzaBee13/valkonclient" target="_blank" class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
-                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <a href="https://github.com/SzaBee13/valkonclient" target="_blank"
+                                class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-github">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                    </path>
                                     <path d="M9 18c-4.51 2-5-2-7-2"></path>
                                 </svg>
                                 <span class="ml-2">GitHub</span>
@@ -185,21 +245,32 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div
+                    class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
                     <div class="p-4 md:p-6">
                         <h3 class="text-lg md:text-xl font-bold mb-2">Useful Py</h3>
-                        <p class="text-sm md:text-base text-gray-700 mb-4">I just wanted to create a python tool, and i created.</p>
+                        <p class="text-sm md:text-base text-gray-700 mb-4">I just wanted to create a python tool, and i
+                            created.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Python</span>
-                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Tools</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Input</span>
-                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Lists</span>
+                            <span
+                                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Python</span>
+                            <span
+                                class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Tools</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Input</span>
+                            <span
+                                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Lists</span>
                         </div>
                         <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
                             <!-- GitHub Button -->
-                            <a href="https://github.com/SzaBee13/valkonclient" target="_blank" class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
-                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <a href="https://github.com/SzaBee13/valkonclient" target="_blank"
+                                class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-github">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                    </path>
                                     <path d="M9 18c-4.51 2-5-2-7-2"></path>
                                 </svg>
                                 <span class="ml-2">GitHub</span>
@@ -207,19 +278,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div
+                    class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
                     <div class="p-4 md:p-6">
                         <h3 class="text-lg md:text-xl font-bold mb-2">LSMP "hack"</h3>
-                        <p class="text-sm md:text-base text-gray-700 mb-4">It just a frontend to backend of <a href="https://lsmp.hu" target="_blank" class="text-lg md:text-xl font-bold mb-2 text-blue-700 hover:text-blue-500 transition duration-300 ease-in-out">LSMP</a>.</p>
+                        <p class="text-sm md:text-base text-gray-700 mb-4">It just a frontend to backend of <a
+                                href="https://lsmp.hu" target="_blank"
+                                class="text-lg md:text-xl font-bold mb-2 text-blue-700 hover:text-blue-500 transition duration-300 ease-in-out">LSMP</a>.
+                        </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
-                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">LSMP</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Fetching</span>
+                            <span
+                                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
+                            <span
+                                class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">LSMP</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Fetching</span>
                         </div>
                         <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
                             <!-- Visit Page Button -->
-                            <a href="https://lsmp-hack.vercel.app" target="_blank" class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link">
+                            <a href="https://lsmp-hack.vercel.app" target="_blank"
+                                class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-external-link">
                                     <path d="M15 3h6v6"></path>
                                     <path d="M10 14 21 3"></path>
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -227,9 +308,14 @@
                                 <span class="ml-2">Visit Page</span>
                             </a>
                             <!-- GitHub Button -->
-                            <a href="https://lsmp-hack.vercel.app" target="_blank" class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
-                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <a href="https://lsmp-hack.vercel.app" target="_blank"
+                                class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-github">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                    </path>
                                     <path d="M9 18c-4.51 2-5-2-7-2"></path>
                                 </svg>
                                 <span class="ml-2">GitHub</span>
@@ -237,19 +323,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div
+                    class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
                     <div class="p-4 md:p-6">
                         <h3 class="text-lg md:text-xl font-bold mb-2">Escape Game Horror</h3>
-                        <p class="text-sm md:text-base text-gray-700 mb-4">Our challenge is to create an escape game and here it is. It's also available on Szanfun</p>
+                        <p class="text-sm md:text-base text-gray-700 mb-4">Our challenge is to create an escape game and
+                            here it is. It's also available on Szanfun</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Python</span>
-                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Escape</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Szabfun</span>
+                            <span
+                                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Python</span>
+                            <span
+                                class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Escape</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Szabfun</span>
                         </div>
                         <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
                             <!-- Visit Page Button -->
-                            <a href="https://szabfun.pages.dev/escape-game" target="_blank" class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link">
+                            <a href="https://szabfun.pages.dev/escape-game" target="_blank"
+                                class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-external-link">
                                     <path d="M15 3h6v6"></path>
                                     <path d="M10 14 21 3"></path>
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -257,9 +351,14 @@
                                 <span class="ml-2">Visit Page</span>
                             </a>
                             <!-- GitHub Button -->
-                            <a href="https://github.com/SzaBee13/Escape-game-horror" target="_blank" class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
-                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <a href="https://github.com/SzaBee13/Escape-game-horror" target="_blank"
+                                class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-github">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                    </path>
                                     <path d="M9 18c-4.51 2-5-2-7-2"></path>
                                 </svg>
                                 <span class="ml-2">GitHub</span>
@@ -267,20 +366,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div
+                    class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
                     <div class="p-4 md:p-6">
                         <h3 class="text-lg md:text-xl font-bold mb-2">Chat</h3>
-                        <p class="text-sm md:text-base text-gray-700 mb-4">I just had an idea of creating a chat app, cause at the time we talked about backend</p>
+                        <p class="text-sm md:text-base text-gray-700 mb-4">I just had an idea of creating a chat app,
+                            cause at the time we talked about backend</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
-                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Backend</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Szabfun</span>
-                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Chat</span>
+                            <span
+                                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
+                            <span
+                                class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Backend</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Szabfun</span>
+                            <span
+                                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Chat</span>
                         </div>
                         <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
                             <!-- Visit Page Button -->
-                            <a href="https://my-first-backend-nine.vercel.app" target="_blank" class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link">
+                            <a href="https://my-first-backend-nine.vercel.app" target="_blank"
+                                class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-external-link">
                                     <path d="M15 3h6v6"></path>
                                     <path d="M10 14 21 3"></path>
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -288,9 +396,14 @@
                                 <span class="ml-2">Visit Page</span>
                             </a>
                             <!-- GitHub Button -->
-                            <a href="https://github.com/SzaBee13/my-first-backend" target="_blank" class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
-                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <a href="https://github.com/SzaBee13/my-first-backend" target="_blank"
+                                class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-github">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                    </path>
                                     <path d="M9 18c-4.51 2-5-2-7-2"></path>
                                 </svg>
                                 <span class="ml-2">GitHub</span>
@@ -298,19 +411,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div
+                    class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
                     <div class="p-4 md:p-6">
                         <h3 class="text-lg md:text-xl font-bold mb-2">Dino Clone</h3>
-                        <p class="text-sm md:text-base text-gray-700 mb-4">Class Project work with <a href="https://github.com/Marcell2307" target="_blank" class="text-lg md:text-xl font-bold mb-2 text-blue-700 hover:text-blue-500 transition duration-300 ease-in-out">Marcell</a>. Clone of chrome's dino game.</p>
+                        <p class="text-sm md:text-base text-gray-700 mb-4">Class Project work with <a
+                                href="https://github.com/Marcell2307" target="_blank"
+                                class="text-lg md:text-xl font-bold mb-2 text-blue-700 hover:text-blue-500 transition duration-300 ease-in-out">Marcell</a>.
+                            Clone of chrome's dino game.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
-                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Chrome</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Dino</span>
+                            <span
+                                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
+                            <span
+                                class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Chrome</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Dino</span>
                         </div>
                         <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
                             <!-- Visit Page Button -->
-                            <a href="https://dinoclone.vercel.app" target="_blank" class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link">
+                            <a href="https://dinoclone.vercel.app" target="_blank"
+                                class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-external-link">
                                     <path d="M15 3h6v6"></path>
                                     <path d="M10 14 21 3"></path>
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -318,9 +441,14 @@
                                 <span class="ml-2">Visit Page</span>
                             </a>
                             <!-- GitHub Button -->
-                            <a href="https://github.com/Marcell2307/dinoclone" target="_blank" class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
-                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <a href="https://github.com/Marcell2307/dinoclone" target="_blank"
+                                class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-github">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                    </path>
                                     <path d="M9 18c-4.51 2-5-2-7-2"></path>
                                 </svg>
                                 <span class="ml-2">GitHub</span>
@@ -328,19 +456,27 @@
                         </div>
                     </div>
                 </div>
-                                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div
+                    class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
                     <div class="p-4 md:p-6">
                         <h3 class="text-lg md:text-xl font-bold mb-2">Reverse Rickroll</h3>
-                        <p class="text-sm md:text-base text-gray-700 mb-4">A discord bot created to detect rickroll, delete therm, and create a roast response.</p>
+                        <p class="text-sm md:text-base text-gray-700 mb-4">A discord bot created to detect rickroll,
+                            delete therm, and create a roast response.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Python</span>
-                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Discord</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">RickRoll</span>
+                            <span
+                                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Python</span>
+                            <span
+                                class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Discord</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">RickRoll</span>
                         </div>
                         <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
                             <!-- Visit Page Button -->
-                            <a href="https://reverse-rickroll.pages.dev" target="_blank" class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link">
+                            <a href="https://reverse-rickroll.pages.dev" target="_blank"
+                                class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-external-link">
                                     <path d="M15 3h6v6"></path>
                                     <path d="M10 14 21 3"></path>
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -348,9 +484,14 @@
                                 <span class="ml-2">Visit Page</span>
                             </a>
                             <!-- GitHub Button -->
-                            <a href="https://github.com/SzaBee13/reverse-rickroll" target="_blank" class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
-                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <a href="https://github.com/SzaBee13/reverse-rickroll" target="_blank"
+                                class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-github">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                    </path>
                                     <path d="M9 18c-4.51 2-5-2-7-2"></path>
                                 </svg>
                                 <span class="ml-2">GitHub</span>
@@ -365,19 +506,30 @@
         <div id="class" class="mt-12">
             <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center">Class Projects</h2>
             <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div
+                    class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
                     <div class="p-4 md:p-6">
                         <h3 class="text-lg md:text-xl font-bold mb-2">Day Guesser</h3>
-                        <p class="text-sm md:text-base text-gray-700 mb-4">That days homework is to copy <a href="https://day-guesser.vercel.app" target="_blank" class="text-lg md:text-xl font-bold mb-2 text-blue-700 hover:text-blue-500 transition duration-300 ease-in-out">This</a> (Coded by my teacher, more details at about)</p>
+                        <p class="text-sm md:text-base text-gray-700 mb-4">That days homework is to copy <a
+                                href="https://day-guesser.vercel.app" target="_blank"
+                                class="text-lg md:text-xl font-bold mb-2 text-blue-700 hover:text-blue-500 transition duration-300 ease-in-out">This</a>
+                            (Coded by my teacher, more details at about)</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
-                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Guesser</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Multi Language</span>
+                            <span
+                                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
+                            <span
+                                class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Guesser</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Multi
+                                Language</span>
                         </div>
                         <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
                             <!-- Visit Page Button -->
-                            <a href="https://day-gueesr.vercel.app" target="_blank" class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link">
+                            <a href="https://day-gueesr.vercel.app" target="_blank"
+                                class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-external-link">
                                     <path d="M15 3h6v6"></path>
                                     <path d="M10 14 21 3"></path>
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -385,9 +537,14 @@
                                 <span class="ml-2">Visit Page</span>
                             </a>
                             <!-- GitHub Button -->
-                            <a href="https://github.com/SzaBee13/Day-Guesser" target="_blank" class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
-                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <a href="https://github.com/SzaBee13/Day-Guesser" target="_blank"
+                                class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-github">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                    </path>
                                     <path d="M9 18c-4.51 2-5-2-7-2"></path>
                                 </svg>
                                 <span class="ml-2">GitHub</span>
@@ -395,19 +552,26 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div
+                    class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
                     <div class="p-4 md:p-6">
                         <h3 class="text-lg md:text-xl font-bold mb-2">Todos</h3>
                         <p class="text-sm md:text-base text-gray-700 mb-4">Create, edit, delete, TODOs.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
-                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Todo</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Backend</span>
+                            <span
+                                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
+                            <span
+                                class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Todo</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Backend</span>
                         </div>
                         <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
                             <!-- Visit Page Button -->
-                            <a href="https://todos-aa.vercel.app" target="_blank" class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link">
+                            <a href="https://todos-aa.vercel.app" target="_blank"
+                                class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-external-link">
                                     <path d="M15 3h6v6"></path>
                                     <path d="M10 14 21 3"></path>
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -415,9 +579,14 @@
                                 <span class="ml-2">Visit Page</span>
                             </a>
                             <!-- GitHub Button -->
-                            <a href="https://github.com/SzaBee13/todos_AA" target="_blank" class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
-                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <a href="https://github.com/SzaBee13/todos_AA" target="_blank"
+                                class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-github">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                    </path>
                                     <path d="M9 18c-4.51 2-5-2-7-2"></path>
                                 </svg>
                                 <span class="ml-2">GitHub</span>
@@ -425,19 +594,26 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div
+                    class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
                     <div class="p-4 md:p-6">
                         <h3 class="text-lg md:text-xl font-bold mb-2">Users</h3>
                         <p class="text-sm md:text-base text-gray-700 mb-4">List of not real users.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
-                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">User</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Backend</span>
+                            <span
+                                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
+                            <span
+                                class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">User</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Backend</span>
                         </div>
                         <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
                             <!-- Visit Page Button -->
-                            <a href="https://users-aa.vercel.app" target="_blank" class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link">
+                            <a href="https://users-aa.vercel.app" target="_blank"
+                                class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-external-link">
                                     <path d="M15 3h6v6"></path>
                                     <path d="M10 14 21 3"></path>
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -445,9 +621,14 @@
                                 <span class="ml-2">Visit Page</span>
                             </a>
                             <!-- GitHub Button -->
-                            <a href="https://github.com/SzaBee13/users_AA" target="_blank" class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
-                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <a href="https://github.com/SzaBee13/users_AA" target="_blank"
+                                class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-github">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                    </path>
                                     <path d="M9 18c-4.51 2-5-2-7-2"></path>
                                 </svg>
                                 <span class="ml-2">GitHub</span>
@@ -455,19 +636,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div
+                    class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
                     <div class="p-4 md:p-6">
                         <h3 class="text-lg md:text-xl font-bold mb-2">Media</h3>
-                        <p class="text-sm md:text-base text-gray-700 mb-4">You can "buy" media, create buyable media.</p>
+                        <p class="text-sm md:text-base text-gray-700 mb-4">You can "buy" media, create buyable media.
+                        </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
-                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Media</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Backend</span>
+                            <span
+                                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Javascript</span>
+                            <span
+                                class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Media</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Backend</span>
                         </div>
                         <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
                             <!-- Visit Page Button -->
-                            <a href="https://media-aa.vercel.app" target="_blank" class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link">
+                            <a href="https://media-aa.vercel.app" target="_blank"
+                                class="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-external-link">
                                     <path d="M15 3h6v6"></path>
                                     <path d="M10 14 21 3"></path>
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -475,9 +664,14 @@
                                 <span class="ml-2">Visit Page</span>
                             </a>
                             <!-- GitHub Button -->
-                            <a href="https://github.com/SzaBee13/media_AA" target="_blank" class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
-                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <a href="https://github.com/SzaBee13/media_AA" target="_blank"
+                                class="flex items-center bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-github">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                    </path>
                                     <path d="M9 18c-4.51 2-5-2-7-2"></path>
                                 </svg>
                                 <span class="ml-2">GitHub</span>
@@ -493,47 +687,75 @@
             <h3 class="text-2xl md:text-3xl font-bold mb-6 text-center">Socials</h3>
             <div class="flex flex-col md:flex-row items-center md:justify-center space-y-4 md:space-y-0 md:space-x-6">
                 <!-- YouTube -->
-                <a href="https://www.youtube.com/@WizardGuruYT" target="_blank" class="flex items-center bg-red-500 text-white px-4 py-2 rounded-full hover:bg-red-600 transition duration-300 ease-in-out shadow-lg">
+                <a href="https://www.youtube.com/@WizardGuruYT" target="_blank"
+                    class="flex items-center bg-red-500 text-white px-4 py-2 rounded-full hover:bg-red-600 transition duration-300 ease-in-out shadow-lg">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M23.498 6.186a2.99 2.99 0 0 0-2.107-2.116C19.622 3.5 12 3.5 12 3.5s-7.622 0-9.391.57A2.99 2.99 0 0 0 .502 6.186C0 7.955 0 12 0 12s0 4.045.502 5.814a2.99 2.99 0 0 0 2.107 2.116C4.378 20.5 12 20.5 12 20.5s7.622 0 9.391-.57a2.99 2.99 0 0 0 2.107-2.116C24 16.045 24 12 24 12s0-4.045-.502-5.814zM9.75 15.5v-7l6.5 3.5-6.5 3.5z" />
+                        <path
+                            d="M23.498 6.186a2.99 2.99 0 0 0-2.107-2.116C19.622 3.5 12 3.5 12 3.5s-7.622 0-9.391.57A2.99 2.99 0 0 0 .502 6.186C0 7.955 0 12 0 12s0 4.045.502 5.814a2.99 2.99 0 0 0 2.107 2.116C4.378 20.5 12 20.5 12 20.5s7.622 0 9.391-.57a2.99 2.99 0 0 0 2.107-2.116C24 16.045 24 12 24 12s0-4.045-.502-5.814zM9.75 15.5v-7l6.5 3.5-6.5 3.5z" />
                     </svg>
                     <span class="ml-2">YouTube</span>
                 </a>
-        
+
                 <!-- Twitch -->
-                <a href="https://www.twitch.tv/wizardguru" target="_blank" class="flex items-center bg-purple-500 text-white px-4 py-2 rounded-full hover:bg-purple-600 transition duration-300 ease-in-out shadow-lg">
+                <a href="https://www.twitch.tv/wizardguru" target="_blank"
+                    class="flex items-center bg-purple-500 text-white px-4 py-2 rounded-full hover:bg-purple-600 transition duration-300 ease-in-out shadow-lg">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 2400 2800">
-                        <path fill="#FFFFFF" d="M500,0L0,500v1800h600v500l500-500h400l900-900V0H500z M2200,1300l-400,400h-400l-350,350v-350H600V200h1600V1300z"/>
-                        <rect x="1700" y="550" width="200" height="600" fill="#FFFFFF"/>
-                        <rect x="1150" y="550" width="200" height="600" fill="#FFFFFF"/>
+                        <path fill="#FFFFFF"
+                            d="M500,0L0,500v1800h600v500l500-500h400l900-900V0H500z M2200,1300l-400,400h-400l-350,350v-350H600V200h1600V1300z" />
+                        <rect x="1700" y="550" width="200" height="600" fill="#FFFFFF" />
+                        <rect x="1150" y="550" width="200" height="600" fill="#FFFFFF" />
                     </svg>
                     <span class="ml-2">Twitch</span>
                 </a>
-        
+
                 <!-- Discord -->
-                <a href="https://discord.gg/num6hCEhxr" target="_blank" class="flex items-center bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out shadow-lg">
+                <a href="https://discord.gg/num6hCEhxr" target="_blank"
+                    class="flex items-center bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out shadow-lg">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 126.644 96">
-                        <path fill="#FFFFFF" d="M81.15,0c-1.2376,2.1973-2.3489,4.4704-3.3591,6.794-9.5975-1.4396-19.3718-1.4396-28.9945,0-.985-2.3236-2.1216-4.5967-3.3591-6.794-9.0166,1.5407-17.8059,4.2431-26.1405,8.0568C2.779,32.5304-1.6914,56.3725.5312,79.8863c9.6732,7.1476,20.5083,12.603,32.0505,16.0884,2.6014-3.4854,4.8998-7.1981,6.8698-11.0623-3.738-1.3891-7.3497-3.1318-10.8098-5.1523.9092-.6567,1.7932-1.3386,2.6519-1.9953,20.281,9.547,43.7696,9.547,64.0758,0,.8587.7072,1.7427,1.3891,2.6519,1.9953-3.4601,2.0457-7.0718,3.7632-10.835,5.1776,1.97,3.8642,4.2683,7.5769,6.8698,11.0623,11.5419-3.4854,22.3769-8.9156,32.0509-16.0631,2.626-27.2771-4.496-50.9172-18.817-71.8548C98.9811,4.2684,90.1918,1.5659,81.1752.0505l-.0252-.0505ZM42.2802,65.4144c-6.2383,0-11.4159-5.6575-11.4159-12.6535s4.9755-12.6788,11.3907-12.6788,11.5169,5.708,11.4159,12.6788c-.101,6.9708-5.026,12.6535-11.3907,12.6535ZM84.3576,65.4144c-6.2637,0-11.3907-5.6575-11.3907-12.6535s4.9755-12.6788,11.3907-12.6788,11.4917,5.708,11.3906,12.6788c-.101,6.9708-5.026,12.6535-11.3906,12.6535Z"/>
+                        <path fill="#FFFFFF"
+                            d="M81.15,0c-1.2376,2.1973-2.3489,4.4704-3.3591,6.794-9.5975-1.4396-19.3718-1.4396-28.9945,0-.985-2.3236-2.1216-4.5967-3.3591-6.794-9.0166,1.5407-17.8059,4.2431-26.1405,8.0568C2.779,32.5304-1.6914,56.3725.5312,79.8863c9.6732,7.1476,20.5083,12.603,32.0505,16.0884,2.6014-3.4854,4.8998-7.1981,6.8698-11.0623-3.738-1.3891-7.3497-3.1318-10.8098-5.1523.9092-.6567,1.7932-1.3386,2.6519-1.9953,20.281,9.547,43.7696,9.547,64.0758,0,.8587.7072,1.7427,1.3891,2.6519,1.9953-3.4601,2.0457-7.0718,3.7632-10.835,5.1776,1.97,3.8642,4.2683,7.5769,6.8698,11.0623,11.5419-3.4854,22.3769-8.9156,32.0509-16.0631,2.626-27.2771-4.496-50.9172-18.817-71.8548C98.9811,4.2684,90.1918,1.5659,81.1752.0505l-.0252-.0505ZM42.2802,65.4144c-6.2383,0-11.4159-5.6575-11.4159-12.6535s4.9755-12.6788,11.3907-12.6788,11.5169,5.708,11.4159,12.6788c-.101,6.9708-5.026,12.6535-11.3907,12.6535ZM84.3576,65.4144c-6.2637,0-11.3907-5.6575-11.3907-12.6535s4.9755-12.6788,11.3907-12.6788,11.4917,5.708,11.3906,12.6788c-.101,6.9708-5.026,12.6535-11.3906,12.6535Z" />
                     </svg>
                     <span class="ml-2">Discord</span>
                 </a>
-        
+
                 <!-- GitHub -->
-                <a href="https://github.com/SzaBee13" target="_blank" class="flex items-center bg-gray-800 text-white px-4 py-2 rounded-full hover:bg-gray-700 transition duration-300 ease-in-out shadow-lg">
+                <a href="https://github.com/SzaBee13" target="_blank"
+                    class="flex items-center bg-gray-800 text-white px-4 py-2 rounded-full hover:bg-gray-700 transition duration-300 ease-in-out shadow-lg">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 .5C5.648.5.5 5.648.5 12c0 5.086 3.292 9.396 7.86 10.93.574.106.786-.25.786-.554 0-.273-.01-1.004-.015-1.97-3.2.696-3.875-1.544-3.875-1.544-.523-1.33-1.277-1.684-1.277-1.684-1.043-.714.08-.7.08-.7 1.152.08 1.756 1.184 1.756 1.184 1.025 1.754 2.69 1.247 3.344.954.104-.743.4-1.247.727-1.534-2.553-.29-5.238-1.277-5.238-5.683 0-1.255.448-2.28 1.184-3.084-.12-.29-.512-1.457.112-3.037 0 0 .96-.307 3.144 1.176a10.94 10.94 0 0 1 5.728 0c2.184-1.483 3.144-1.176 3.144-1.176.624 1.58.232 2.747.112 3.037.736.804 1.184 1.83 1.184 3.084 0 4.417-2.69 5.39-5.252 5.673.408.352.776 1.048.776 2.112 0 1.526-.015 2.756-.015 3.13 0 .308.208.666.792.554C20.708 21.396 24 17.086 24 12 24 5.648 18.352.5 12 .5z" />
+                        <path
+                            d="M12 .5C5.648.5.5 5.648.5 12c0 5.086 3.292 9.396 7.86 10.93.574.106.786-.25.786-.554 0-.273-.01-1.004-.015-1.97-3.2.696-3.875-1.544-3.875-1.544-.523-1.33-1.277-1.684-1.277-1.684-1.043-.714.08-.7.08-.7 1.152.08 1.756 1.184 1.756 1.184 1.025 1.754 2.69 1.247 3.344.954.104-.743.4-1.247.727-1.534-2.553-.29-5.238-1.277-5.238-5.683 0-1.255.448-2.28 1.184-3.084-.12-.29-.512-1.457.112-3.037 0 0 .96-.307 3.144 1.176a10.94 10.94 0 0 1 5.728 0c2.184-1.483 3.144-1.176 3.144-1.176.624 1.58.232 2.747.112 3.037.736.804 1.184 1.83 1.184 3.084 0 4.417-2.69 5.39-5.252 5.673.408.352.776 1.048.776 2.112 0 1.526-.015 2.756-.015 3.13 0 .308.208.666.792.554C20.708 21.396 24 17.086 24 12 24 5.648 18.352.5 12 .5z" />
                     </svg>
                     <span class="ml-2">GitHub</span>
+                </a>
+
+                <!-- Docker -->
+                <a href="https://hub.docker.com/u/szabee13" target="_blank"
+                    class="flex items-center bg-gray-800 text-white px-4 py-2 rounded-full hover:bg-gray-700 transition duration-300 ease-in-out shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 756.26 596.9">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: #1d63ed;
+                                    stroke-width: 0px;
+                                }
+                            </style>
+                        </defs>
+                        <path class="cls-1"
+                            d="M743.96,245.25c-18.54-12.48-67.26-17.81-102.68-8.27-1.91-35.28-20.1-65.01-53.38-90.95l-12.32-8.27-8.21,12.4c-16.14,24.5-22.94,57.14-20.53,86.81,1.9,18.28,8.26,38.83,20.53,53.74-46.1,26.74-88.59,20.67-276.77,20.67H.06c-.85,42.49,5.98,124.23,57.96,190.77,5.74,7.35,12.04,14.46,18.87,21.31,42.26,42.32,106.11,73.35,201.59,73.44,145.66.13,270.46-78.6,346.37-268.97,24.98.41,90.92,4.48,123.19-57.88.79-1.05,8.21-16.54,8.21-16.54l-12.3-8.27ZM189.67,206.39h-81.7v81.7h81.7v-81.7ZM295.22,206.39h-81.7v81.7h81.7v-81.7ZM400.77,206.39h-81.7v81.7h81.7v-81.7ZM506.32,206.39h-81.7v81.7h81.7v-81.7ZM84.12,206.39H2.42v81.7h81.7v-81.7ZM189.67,103.2h-81.7v81.7h81.7v-81.7ZM295.22,103.2h-81.7v81.7h81.7v-81.7ZM400.77,103.2h-81.7v81.7h81.7v-81.7ZM400.77,0h-81.7v81.7h81.7V0Z" />
+                    </svg>
+                    <span class="ml-2">Docker</span>
                 </a>
             </div>
         </div>
     </div>
 
     <!-- Bottom-Right Go Up/Down Button -->
-    <a id="scroll-button" href="#content" class="fixed bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded-full shadow-lg hover:bg-gray-700">
+    <a id="scroll-button" href="#content"
+        class="fixed bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded-full shadow-lg hover:bg-gray-700">
         Go Down
     </a>
 
     <script src="./script.js"></script>
 </body>
+
 </html>
