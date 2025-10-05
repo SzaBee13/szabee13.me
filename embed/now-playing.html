@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Now Playing Embed</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <div id="loading" class="text-center my-6 text-gray-600">Loading now playing...</div>
+  <div id="track" class="max-w-xs mx-auto bg-white rounded-lg shadow-lg p-4 flex flex-col items-center justify-center hidden">
+    <img id="cover" class="w-24 h-24 rounded-lg mb-2" src="" alt="Album Cover" />
+    <div class="font-bold text-lg text-center" id="title"></div>
+    <div class="text-gray-600 text-center" id="artist"></div>
+    <div class="text-gray-500 text-center" id="album"></div>
+  </div>
+  <script>
+    // Theme detection from URL (?theme=dark or ?theme=light)
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      const theme = params.get("theme");
+      const isDark = theme === "dark";
+      // Elements
+      const body = document.body;
+      const loading = document.getElementById("loading");
+      const track = document.getElementById("track");
+      const title = document.getElementById("title");
+      const artist = document.getElementById("artist");
+      const album = document.getElementById("album");
+
+      // Body
+      body.classList.toggle("bg-gray-900", isDark);
+      body.classList.toggle("text-gray-200", isDark);
+      body.classList.toggle("bg-gray-100", !isDark);
+      body.classList.toggle("text-gray-800", !isDark);
+
+      // Loading
+      loading.classList.toggle("text-gray-300", isDark);
+      loading.classList.toggle("text-gray-600", !isDark);
+
+      // Track box
+      track.classList.toggle("bg-gray-800", isDark);
+      track.classList.toggle("text-white", isDark);
+      track.classList.toggle("bg-white", !isDark);
+      track.classList.toggle("text-gray-800", !isDark);
+
+      // Title
+      title.classList.toggle("text-white", isDark);
+      title.classList.toggle("text-gray-800", !isDark);
+
+      // Artist
+      artist.classList.toggle("text-gray-300", isDark);
+      artist.classList.toggle("text-gray-600", !isDark);
+
+      // Album
+      album.classList.toggle("text-gray-400", isDark);
+      album.classList.toggle("text-gray-500", !isDark);
+    })();
+  </script>
+  <script src="../now-playing.js"></script>
+  <script>
+    // Every 20s refresh
+    setInterval(getNowPlaying, 20000);
+  </script>
+</body>
+</html>
