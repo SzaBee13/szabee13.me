@@ -37,7 +37,8 @@
             <li><a href="#class" class="block hover:bg-gray-700 hover:text-white px-3 py-2 rounded">Class Projects</a>
             </li>
             <li><a href="#socials" class="block hover:bg-gray-700 hover:text-white px-3 py-2 rounded">Socials</a></li>
-            <li><a href="#now-playing-widget" class="block hover:bg-gray-700 hover:text-white px-3 py-2 rounded">Now Playing</a></li>
+            <li><a href="#now-playing-widget" class="block hover:bg-gray-700 hover:text-white px-3 py-2 rounded">Now
+                    Playing</a></li>
         </ul>
 
         <!-- Right: Theme Selector and Hamburger Menu -->
@@ -784,18 +785,31 @@
         <div id="now-playing-widget" class="flex flex-col items-center my-8">
             <h3 class="text-2xl md:text-3xl font-bold mb-6 text-center">Now Playing</h3>
 
-            <iframe src="https://lastfmstats.com/user/SzaBee13/general" frameborder="0" class="w-full h-96"></iframe>
+            <div class="nowplayingcard transition-colors duration-300 rounded-lg shadow-lg p-4 flex items-center bg-white dark:bg-gray-800 dark:text-white text-gray-800"
+                id="nowplayingcard">
+                <div class="nowplayingcontainer-inner flex items-center space-x-4">
+                    <img id="trackart" src="#"
+                        class="w-16 h-16 rounded shadow-md border border-gray-200 dark:border-gray-700 bg-gray-200 dark:bg-gray-700 object-cover"
+                        alt="Track Art">
+                    <div class="trackInfo flex flex-col">
+                        <a id="tracktitle"
+                            class="font-semibold text-lg hover:underline text-blue-700 dark:text-blue-400"></a>
+                        <a href="#" id="trackartist"
+                            class="text-sm text-gray-600 dark:text-gray-300 hover:underline"></a>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <!-- Bottom-Right Go Up/Down Button -->
+        <a id="scroll-button" href="#content"
+            class="fixed bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded-full shadow-lg hover:bg-gray-700">
+            Go Down
+        </a>
+
+        <script src="./script.js"></script>
+        <script src="./now-playing.js"></script>
     </div>
-
-    <!-- Bottom-Right Go Up/Down Button -->
-    <a id="scroll-button" href="#content"
-        class="fixed bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded-full shadow-lg hover:bg-gray-700">
-        Go Down
-    </a>
-
-    <script src="./script.js"></script>
-    <script src="./now-playing.js"></script>
 </body>
 
 </html>

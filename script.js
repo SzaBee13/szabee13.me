@@ -19,7 +19,10 @@ const trackBox = document.getElementById("track");
 const title = document.getElementById("title");
 const artist = document.getElementById("artist");
 const album = document.getElementById("album");
-
+const nowPlayingCard = document.getElementById("nowplayingcard");
+const trackTitle = document.getElementById("tracktitle");
+const trackArtist = document.getElementById("trackartist");
+const trackArt = document.getElementById("trackart");
 // Function to apply the theme
 function applyTheme(isDarkMode) {
   // Update body background and text
@@ -105,22 +108,19 @@ function applyTheme(isDarkMode) {
     paragraph.classList.toggle("text-gray-700", !isDarkMode); // Dark text for light mode
   });
 
-  nowPlayingWidget.classList.toggle("bg-gray-800", isDarkMode);
-  nowPlayingWidget.classList.toggle("text-white", isDarkMode);
-  nowPlayingWidget.classList.toggle("bg-gray-100", !isDarkMode);
-  nowPlayingWidget.classList.toggle("text-gray-800", !isDarkMode);
-  loadingBox.classList.toggle("text-gray-300", isDarkMode);
-  loadingBox.classList.toggle("text-gray-600", !isDarkMode);
-  trackBox.classList.toggle("bg-gray-800", isDarkMode);
-  trackBox.classList.toggle("text-white", isDarkMode);
-  trackBox.classList.toggle("bg-white", !isDarkMode);
-  trackBox.classList.toggle("text-gray-800", !isDarkMode);
-  title.classList.toggle("text-white", isDarkMode);
-  title.classList.toggle("text-gray-800", !isDarkMode);
-  artist.classList.toggle("text-gray-300", isDarkMode);
-  artist.classList.toggle("text-gray-700", !isDarkMode);
-  album.classList.toggle("text-gray-400", isDarkMode);
-  album.classList.toggle("text-gray-500", !isDarkMode);
+  nowPlayingCard.classList.toggle("bg-gray-800", isDarkMode);
+  nowPlayingCard.classList.toggle("text-white", isDarkMode);
+  nowPlayingCard.classList.toggle("bg-white", !isDarkMode);
+  nowPlayingCard.classList.toggle("text-gray-800", !isDarkMode);
+  nowPlayingCard.classList.toggle("shadow-lg", true);
+
+  // Track title link color
+  trackTitle.classList.toggle("text-blue-400", isDarkMode);
+  trackTitle.classList.toggle("text-blue-700", !isDarkMode);
+
+  // Track artist color
+  trackArtist.classList.toggle("text-gray-300", isDarkMode);
+  trackArtist.classList.toggle("text-gray-600", !isDarkMode);
 
   // Update theme icon
   if (isDarkMode) {
