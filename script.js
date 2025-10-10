@@ -23,6 +23,7 @@ const nowPlayingCard = document.getElementById("nowplayingcard");
 const trackTitle = document.getElementById("tracktitle");
 const trackArtist = document.getElementById("trackartist");
 const trackArt = document.getElementById("trackart");
+const terminalVector = document.getElementById("terminal-vector")
 // Function to apply the theme
 function applyTheme(isDarkMode) {
   // Update body background and text
@@ -79,6 +80,8 @@ function applyTheme(isDarkMode) {
   menu.classList.toggle("text-white", isDarkMode);
   menu.classList.toggle("bg-gray-100", !isDarkMode);
   menu.classList.toggle("text-gray-800", !isDarkMode);
+
+  terminalVector.setAttribute("stroke", isDarkMode ? "#fff" : "#000000")
 
   // Update project cards
   projectCards.forEach((card) => {
